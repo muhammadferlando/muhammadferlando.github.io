@@ -4,10 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/*home-slider owl-carousel
-slider-item*/
-/*overlay
-container*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -3662,12 +3658,12 @@ input[type="button"].btn-block {
   margin-left: -0.625rem; }
 
 .card-img-overlay {
- /* position: absolute;*/
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
- /* padding: 1.25rem;*/ }
+  padding: 1.25rem; }
 
 .card-img {
   width: 100%;
@@ -7580,13 +7576,13 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
-        /*position: absolute;*/
+        position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
         background: #000;
-        /*opacity: .3;*/ }
+        opacity: .3; }
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
         height: 750px;
@@ -8236,13 +8232,13 @@ h1, h2, h3, h4, h5,
   position: relative;
   background: #000; }
   .ftco-appointment .overlay {
-   /* position: absolute;*/
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: #c49b63;
-   /* opacity: 0;*/ }
+    opacity: 0; }
 
 .appointment {
   padding: 20px !important; }
@@ -8364,23 +8360,23 @@ h1, h2, h3, h4, h5,
     #ftco-testimony.img {
       background-position: center center !important; } }
   #ftco-testimony > .overlay {
-   /* position: absolute;*/
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: #000;
-    /*opacity: .5;*/ }
+    opacity: .5; }
 
 .testimony {
   background: #c49b63;
   padding: 2em;
   color: #fff; }
   .testimony.overlay {
-   /* position: relative;*/
+    position: relative;
     z-index: 0; }
     .testimony.overlay:after {
-      /*position: absolute;*/
+      position: absolute;
       top: 0;
       left: 0;
       right: 0;
@@ -8767,13 +8763,13 @@ textarea.form-control {
   position: relative;
   z-index: 0; }
   #section-counter .overlay {
-   /* position: absolute;*/
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: #000;
-    /*opacity: .5;*/ }
+    opacity: .5; }
 
 .ftco-counter {
   padding: 7em 0; }
