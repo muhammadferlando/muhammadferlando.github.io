@@ -4,7 +4,8 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
+/* slider-item
+absolute*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7577,7 +7578,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
-        position: absolute;
+        /*position: absolute;*/
         top: 0;
         bottom: 0;
         left: 0;
