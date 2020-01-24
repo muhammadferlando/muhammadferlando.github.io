@@ -4,7 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -127,7 +126,7 @@ strong {
 small {
   font-size: 80%; }
 
-subheading,
+sub,
 sup {
   position: relative;
   font-size: 75%;
