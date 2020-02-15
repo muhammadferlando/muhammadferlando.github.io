@@ -16,9 +16,9 @@
 .sanspro{
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
-.hasil{
-	width: 350px;
-	height: 300px;
+.bahasapopuler{
+	width: 340px;
+	height: 320px;
 	vertical-align: middle;
 	border-style: none;
 		border-top-style: none;
@@ -26,6 +26,7 @@
 		border-bottom-style: none;
 		border-left-style: none;
 }
+
 
 /*font-family*/
 /*pre*/
